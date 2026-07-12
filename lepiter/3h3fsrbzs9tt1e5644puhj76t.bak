@@ -1,0 +1,468 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:27:46.063617-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:29:59.689222-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yHlZV840S+O3zuqHrUC49Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "This page begins its life as a {{gtPage:Project Diary|db=2j9m7db2i4oz116bexd7wbdxo}}\t. Let's get souce code for some challenging wiki packages."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:31:41.385588-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:40:03.894993-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "79wzUXDOQvyoIZaAYGf42A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#Which Packages?\nHere's a collection of hard problems to consider."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:32:59.022024-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T23:47:02.348014-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "KFrR+MRpReKYjENfsqC5dA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##wi [[wiki-client]]\nremove jquery-ui. A key behavior is drag-n-drop of pages in the lineup and items in the page.\nalternate slug computation. especially to enable page titles for other human languages \nalternate linup serialization to urls. especially to improve wiki-ssg"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:34:05.613281-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:34:05.613281-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "rBQ7Ge2XS8yDYF9uUbQ9KA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##wiki-server\nmaybe create an alternate CLI with simpler config params and local farm by default\nmaybe create a config generator CLI to make the existing config easier to set up"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:35:12.784214-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:38:00.361325-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "CP4eIdxfS7uIpY/JYk9/YQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##wiki-plugin-frame\nmove the `postMessage()` handler out of the frame plugin into wiki-client\ntest scafolding and automated tests"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:30:05.904362-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:37:55.327152-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "lNl72eehTlqY3K2lkMTTfg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "##wiki-plugin-graphviz\nchange the way we freeze algorithmic diagrams with UX more like the map plugin\nmaybe move the static diagram code into a new wiki-dot-plugin\nrelated tools for page migration\ntest scafolding and automated tests"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:59:48.634598-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T23:01:54.905411-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wAxkvDaOTsy16VRlDgTAvw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "#How do I checkout the code in GT?\nClone from github. For example, {{gtPage:Analyzing JavaScript React Native: the Zooniverse case study|db=2j9m7db2i4oz116bexd7wbdxo}}."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T23:03:07.602433-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T23:35:25.539158-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Pw9ijbqqTH2NyV3CN6K68g=="
+				},
+				"code" : "wikiPackagesDirectory := 'gt-wiki-bridge-packages' asFileReference"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T23:10:13.755799-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T23:41:37.712421-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mxrEbbIBQ12PjxhQLsrvdw=="
+				},
+				"code" : "IceRepositoryCreator\r\tfromUrl: 'git@github.com:fedwiki/wiki-client'\r\tto: wikiPackagesDirectory / 'wiki-client'"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T23:42:14.046273-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T23:42:26.048612-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "EGTd3HUgQiG8aIeRjwj8YQ=="
+				},
+				"code" : "IceRepositoryCreator\r\tfromUrl: 'git@github.com:fedwiki/wiki-server'\r\tto: wikiPackagesDirectory / 'wiki-server'"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T23:42:34.143023-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T23:42:44.817937-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "lOyWYtgSTIWWy8jzAGpzcw=="
+				},
+				"code" : "IceRepositoryCreator\r\tfromUrl: 'git@github.com:fedwiki/wiki-plugin-frame'\r\tto: wikiPackagesDirectory / 'wiki-plugin-frame'"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T23:42:51.137663-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T23:43:02.269949-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "EWbUg4uATRaEMfUV9acb8Q=="
+				},
+				"code" : "IceRepositoryCreator\r\tfromUrl: 'git@github.com:fedwiki/wiki-plugin-graphviz'\r\tto: wikiPackagesDirectory / 'wiki-plugin-graphviz'"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-07-11T22:23:54.43244-06:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-07-11T22:23:54.43244-06:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Wiki Packages"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "2524ae8a-cb3e-4a31-8e56-63bd03e0b13a"
+	}
+}

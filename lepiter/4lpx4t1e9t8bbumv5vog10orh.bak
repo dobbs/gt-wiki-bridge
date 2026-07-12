@@ -55,6 +55,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:23:21.143141-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-11T22:23:21.696745-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "cyBmdBa/S+GaMXz+9+YVVw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[]]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2026-07-11T16:56:14.230166-06:00"
 					}
 				},
@@ -99,12 +136,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-07-11T16:55:49.755237-06:00"
+			"dateAndTimeString" : "2026-07-11T17:08:07.837357-06:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Wiki"
+		"title" : "Wiki Bridge"
 	},
 	"uid" : {
 		"__type" : "uuid",
