@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-12T00:30:05.732444-06:00"
+						"dateAndTimeString" : "2026-07-12T22:06:33.206297-06:00"
 					}
 				},
 				"uid" : {
@@ -100,7 +100,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-12T01:01:04.309603-06:00"
+						"dateAndTimeString" : "2026-07-12T22:40:36.950444-06:00"
 					}
 				},
 				"uid" : {
@@ -110,7 +110,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "One of the files does not parse. Probably need to learn some error handling for JSParser"
+				"string" : "Learned some error handling for JSParser. There are two files that do not parse. Both report unexpected tokens.\n`state.js` at character 1853.\n`active.js` at character 1924.\nWhat they have in common is both are the first characters following an "
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -137,14 +137,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-12T13:55:00.965175-06:00"
+						"dateAndTimeString" : "2026-07-12T22:32:02.064461-06:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "cT7VQ0J0Rw2ZA+54aqkTaA=="
 				},
-				"code" : "wikiClientLib entries collect: [ :each | each readStream]"
+				"code" : "(wikiClientLib entries collect: [ :each | \r  | stream ast message want|\r  stream := each readStream.\r  ast := JSParser\tparseStream: stream \r    onError: [ :str :pos | message := (str , ' ' , pos asString) ].\r\t{\r  \t'file' -> each basename .\r  \t'ast' -> ast . \r    'error' -> message\r\t} asDictionary\r]) select: [ :each | (each at: 'error') isNotNil]"
 			},
 			{
 				"__type" : "textSnippet",
