@@ -108,7 +108,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2026-07-18T10:32:42.599084-06:00"
+									"dateAndTimeString" : "2026-07-18T10:45:30.738899-06:00"
 								}
 							},
 							"uid" : {
@@ -118,7 +118,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Learn how to improve JSParser. Learn SmaCC.\n[Discord conversation, Oct 2024](https://discord.com/channels/729445214812504107/729445215341117522/1295272906930130997)\n[SmaCC Booklet](http://books.pharo.org/booklet-Smacc/html/smacc.html)\nSean DeNigris live coding with John Brant: a toml parser from an ANTLR grammar [youtube](https://www.youtube.com/watch?v=ClxwPg_L54g)\nFollow someone else learning SmaCC [feenkcom/gtoolkit#4090](https://github.com/feenkcom/gtoolkit/issues/4090) [feenkcom/gtoolkit#4091](https://github.com/feenkcom/gtoolkit/issues/4091)."
+							"string" : "Learn how to improve JSParser. Learn SmaCC.\n\nIf I change JSParser, how do I test my changes? How do I\n\n[Discord conversation, Oct 2024](https://discord.com/channels/729445214812504107/729445215341117522/1295272906930130997)\n[SmaCC Booklet](http://books.pharo.org/booklet-Smacc/html/smacc.html)\nSean DeNigris live coding with John Brant: a toml parser from an ANTLR grammar [youtube](https://www.youtube.com/watch?v=ClxwPg_L54g)\nFollow someone else learning SmaCC [feenkcom/gtoolkit#4090](https://github.com/feenkcom/gtoolkit/issues/4090) [feenkcom/gtoolkit#4091](https://github.com/feenkcom/gtoolkit/issues/4091)."
 						},
 						{
 							"__type" : "textSnippet",
@@ -145,7 +145,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2026-07-18T10:34:57.10237-06:00"
+									"dateAndTimeString" : "2026-07-18T10:35:23.72404-06:00"
 								}
 							},
 							"uid" : {
@@ -155,7 +155,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Alternately, find out how widely we are using the `if (condition) return` idiom in federated wiki's javascript. If it's not widely employed, maybe we could change the source to "
+							"string" : "Alternately, find out how widely we are using the `if (condition) return` idiom in federated wiki's javascript. If it's not widely employed, maybe we could change the source to the constraints of JSParser."
 						}
 					]
 				},
