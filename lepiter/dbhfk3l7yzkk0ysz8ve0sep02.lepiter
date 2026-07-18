@@ -216,6 +216,77 @@
 					"uidString" : "IMdhBdjHSjafolTvamc3xQ=="
 				},
 				"code" : "JSParser parseStream: ((wikiClientLib / 'link.js') readStream)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-16T08:50:18.170839-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-18T09:30:52.129464-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "x+3nUd4YTU+OZsoHY60ayQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Here are reduced examples that fail along with similar examples that succeed. I asked about these failures in discord and also submitted a github issue: [feenkcom/gtoolkit#5138](https://github.com/feenkcom/gtoolkit/issues/5138)."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-16T08:50:35.995146-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-18T06:31:42.755322-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iJREzooGT8SrD6EOusQ7vg=="
+				},
+				"code" : "failures := #(\r'if (false) return\nlet x = true'\r'if (false) return\rfn()'\r).\rsuccesses := #(\r'if (false) return\rvar x = true'\r'if (false) return\rconst x = true'\r'if (false) return;\rlet x = true'\r'if (false) {return}\rlet x = true'\r'if (false) return;\rfn()'\r).\r(failures , successes) collect: [:src |\rJSParser\tparse: src\r  onError: [:str :pos | pos]\r]"
 			}
 		]
 	},
