@@ -1,0 +1,188 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-18T16:26:39.300267-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-18T16:27:27.697852-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "N1RO9GZ8Rj6UP6w5qExgrg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Learn how to improve JSParser. Learn SmaCC.\n\nIf I change JSParser, how do I test my changes? How do I confirm I haven't broken other parsing?\n\n[Discord conversation, Oct 2024](https://discord.com/channels/729445214812504107/729445215341117522/1295272906930130997)\n[SmaCC Booklet](http://books.pharo.org/booklet-Smacc/html/smacc.html) is written for pharo, not GT. Some translation left for the reader.\nFollow someone else learning SmaCC [feenkcom/gtoolkit#4090](https://github.com/feenkcom/gtoolkit/issues/4090) [feenkcom/gtoolkit#4091](https://github.com/feenkcom/gtoolkit/issues/4091).\nSean DeNigris live coding with John Brant: a toml parser from an ANTLR grammar [youtube](https://www.youtube.com/watch?v=ClxwPg_L54g)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "pictureSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-07-18T17:54:37.473354-06:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-07-18T17:57:56.174321-06:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Bue/oXHpShGyZhkc+UcnTg=="
+							},
+							"url" : "attachments/e9d62bo4n3ixsftzwj48blulg/Screenshot 2026-07-18 at 5.44.22 PM.png",
+							"caption" : "Coder > Add class or package > Parser",
+							"previewHeight" : 300,
+							"reference" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-07-18T17:59:16.491605-06:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-07-18T18:33:20.974688-06:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "5BUdkOO2Q/uzIsVod51P3g=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "I named the Parser \"BrokenCalculatorParser\", named the Scanner \"BrokenCalculatorScanner\", and put them in \"GtWikiBridge\".\n{{gtClass:BrokenCalculatorParser}}\n{{gtClass:BrokenCalculatorScanner}}\nI tried translating the instructions from the SmaCC Booklet, but what I have isn't working and I don't know enough to debug it yet."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-18T17:40:18.918234-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-18T17:58:12.056684-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qvU57F4aRzidoCRxmOp1ug=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# SmaCC Tutorial\nCreate objects for the scanner and the parser using Coder. "
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-07-18T16:25:55.994121-06:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-07-18T17:54:16.573651-06:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Side quest: Learn JSParser and SmaCC"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "938cf18f-9750-4346-b099-205adeafe381"
+	}
+}

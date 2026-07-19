@@ -97,43 +97,6 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2026-07-18T10:15:26.420727-06:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2026-07-18T10:45:49.088557-06:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "Oh2NkeXWR+ucKVuOGkzCNg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Learn how to improve JSParser. Learn SmaCC.\n\nIf I change JSParser, how do I test my changes? How do I confirm I haven't broken other parsing?\n\n[Discord conversation, Oct 2024](https://discord.com/channels/729445214812504107/729445215341117522/1295272906930130997)\n[SmaCC Booklet](http://books.pharo.org/booklet-Smacc/html/smacc.html)\nSean DeNigris live coding with John Brant: a toml parser from an ANTLR grammar [youtube](https://www.youtube.com/watch?v=ClxwPg_L54g)\nFollow someone else learning SmaCC [feenkcom/gtoolkit#4090](https://github.com/feenkcom/gtoolkit/issues/4090) [feenkcom/gtoolkit#4091](https://github.com/feenkcom/gtoolkit/issues/4091)."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2026-07-18T10:33:25.911316-06:00"
 								}
 							},
@@ -156,6 +119,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "Alternately, find out how widely we are using the `if (condition) return` idiom in federated wiki's javascript. If it's not widely employed, maybe we could change the source to the constraints of JSParser."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-07-18T10:15:26.420727-06:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-07-18T17:54:16.583967-06:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Oh2NkeXWR+ucKVuOGkzCNg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Side quest: Learn JSParser and SmaCC]]"
 						}
 					]
 				},
@@ -178,7 +178,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-18T10:05:52.483892-06:00"
+						"dateAndTimeString" : "2026-07-18T16:22:20.799116-06:00"
 					}
 				},
 				"uid" : {
@@ -188,7 +188,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Note to my future self: some ideas for what to learn next"
+				"string" : "**Note to my future self:** some ideas for what to learn next"
 			},
 			{
 				"__type" : "textSnippet",
