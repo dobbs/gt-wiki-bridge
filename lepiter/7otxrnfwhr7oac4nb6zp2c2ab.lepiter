@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-18T16:27:27.697852-06:00"
+						"dateAndTimeString" : "2026-07-19T09:37:37.67239-06:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Learn how to improve JSParser. Learn SmaCC.\n\nIf I change JSParser, how do I test my changes? How do I confirm I haven't broken other parsing?\n\n[Discord conversation, Oct 2024](https://discord.com/channels/729445214812504107/729445215341117522/1295272906930130997)\n[SmaCC Booklet](http://books.pharo.org/booklet-Smacc/html/smacc.html) is written for pharo, not GT. Some translation left for the reader.\nFollow someone else learning SmaCC [feenkcom/gtoolkit#4090](https://github.com/feenkcom/gtoolkit/issues/4090) [feenkcom/gtoolkit#4091](https://github.com/feenkcom/gtoolkit/issues/4091).\nSean DeNigris live coding with John Brant: a toml parser from an ANTLR grammar [youtube](https://www.youtube.com/watch?v=ClxwPg_L54g)"
+				"string" : "Learn how to improve {{gtClass:JSParser}}. Learn SmaCC.\n\nIf I change JSParser, how do I test my changes? How do I confirm I haven't broken other parsing?\n\n[Discord conversation, Oct 2024](https://discord.com/channels/729445214812504107/729445215341117522/1295272906930130997)\n[SmaCC Booklet](http://books.pharo.org/booklet-Smacc/html/smacc.html) is written for pharo, not GT. Some translation left for the reader.\nFollow someone else learning SmaCC [feenkcom/gtoolkit#4090](https://github.com/feenkcom/gtoolkit/issues/4090) [feenkcom/gtoolkit#4091](https://github.com/feenkcom/gtoolkit/issues/4091).\nSean DeNigris live coding with John Brant: a toml parser from an ANTLR grammar [youtube](https://www.youtube.com/watch?v=ClxwPg_L54g)"
 			},
 			{
 				"__type" : "textSnippet",

@@ -219,7 +219,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2026-07-19T08:47:28.529849-06:00"
+									"dateAndTimeString" : "2026-07-19T08:47:59.610442-06:00"
 								}
 							},
 							"uid" : {
@@ -229,7 +229,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "One might also start a tutorial from an existing parser, like {{gtClass:TestParser}}"
+							"string" : "One might also start a tutorial from an existing parser, like {{gtClass:TestParser}} to teach the reader how to use the custom inspector before teaching the details of scanners and parsers."
 						}
 					]
 				},
