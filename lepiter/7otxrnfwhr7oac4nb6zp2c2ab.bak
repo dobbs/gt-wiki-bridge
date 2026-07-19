@@ -108,7 +108,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2026-07-18T18:33:11.542997-06:00"
+									"dateAndTimeString" : "2026-07-19T08:32:00.363021-06:00"
 								}
 							},
 							"uid" : {
@@ -118,7 +118,118 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "I named the Parser \"BrokenCalculatorParser\", named the Scanner \"BrokenCalculatorScanner\", and put them in \"GtWikiBridge\".\n{{gtClass:BrokenCalculatorParser}}\n{{gtClass:BrokenCalculatorScanner}}\nI tried translating the instructions from the SmaCC Booklet, but what I have isn't working and I don't know enough to "
+							"string" : "I named the Parser {{gtClass:CalculatorParser}}, named the Scanner {{gtClass:CalculatorScanner}}, and put them in the package \"GtWikiBridge\"."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-07-19T08:23:15.947341-06:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-07-19T08:30:50.520971-06:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "R1EPPQwHQtCpepTRUxY4lA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The tutorial describes a tool that doesn't look like the inspector in GT. What I think I now understand is that the Source tab in the Inspector is where the reader is meant to copy the grammar from the tutorial. That source gets interpreted into a more structured interface in the Grammar tab. Changes in either of those tabs need to be explicitly accepted using the Save button (small button with a checkmark in the lower left corner of the inspector). The Test tab in the inspector can be used to test out the parser. This is where the reader is meant to type in an expression (the example suggests \"3 + 4\"). The Inspect button can be used to activate the test content against the parser."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-07-19T08:32:12.197257-06:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-07-19T08:42:03.517008-06:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "euI7CLoLR8iiFAWsCqrWwQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "There was a step I had to figure out on my own in order to get the grammar working. For context, I have only a superficial understanding of parsers. My main previous experience with parsers was in trying to port Ward Cunningham's practice of Exploratory Parsing to federated wiki. This gave me some exposure to a pegleg parser. When I couldn't get the grammer working in SmaCC, I went back to look at the pegleg example [Exploratory Parsing in Frames](https://wiki.dbbs.co/exploratory-parsing-in-frames.html) where I saw that the grammar also had a `start` idiom. That gave me the insight I needed to get the SmaCC grammar working:\n\t```\n\tStart \r\t\t: Expression\r\t\t;\n\t\n\t<number>        :       [0-9]+ (\\. [0-9]*) ? ;\n\t<whitespace>    :       \\s+;\n\tExpression \n\t\t: Expression \"+\" Number\n\t\t| Number\n\t\t;\n\tNumber \n\t\t: <number>\n\t\t;\n\t```\nIt would improve the tutorial to make that connection from `Start` to `Expression` explicit in the instructions for readers who are similarly unfamiliar with parsers."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-07-19T08:43:15.782227-06:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-07-19T08:47:28.529849-06:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "RGYQpmvUREO3Frn0XFYrPg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "One might also start a tutorial from an existing parser, like {{gtClass:TestParser}}"
 						}
 					]
 				},
