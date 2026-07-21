@@ -18,6 +18,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-18T10:06:49.844179-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-21T05:58:43.480859-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "eqrwEoybQlGlVjTiD5zFpA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### A subset of hard problems to consider [[Wiki Packages]]\nremove jquery-ui. A key behavior is drag-n-drop of pages in the lineup and items in the page.\nalternate slug computation. especially to enable page titles for other human languages \nalternate linup serialization to urls. especially to improve wiki-ssg"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2026-07-18T10:03:20.387479-06:00"
 					}
 				},
@@ -40,43 +77,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "This page begins its life as a {{gtPage:Project Diary|db=2j9m7db2i4oz116bexd7wbdxo}}."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-18T10:06:49.844179-06:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-18T10:14:21.189732-06:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "eqrwEoybQlGlVjTiD5zFpA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "### Hard problems to consider [[Wiki Packages]]\nremove jquery-ui. A key behavior is drag-n-drop of pages in the lineup and items in the page.\nalternate slug computation. especially to enable page titles for other human languages \nalternate linup serialization to urls. especially to improve wiki-ssg"
 			},
 			{
 				"__type" : "textSnippet",
@@ -286,7 +286,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-12T22:43:50.167117-06:00"
+						"dateAndTimeString" : "2026-07-21T05:59:48.218335-06:00"
 					}
 				},
 				"uid" : {
@@ -296,7 +296,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Learned some error handling for JSParser. There are two files that do not parse. Both report unexpected tokens.\n`state.js` at character 1853.\n`active.js` at character 1924.\nWhat they have in common is both are the first characters following an `if` statement without braces."
+				"string" : "Learned some error handling for JSParser. **There are two files that do not parse.** Both report unexpected tokens.\n`state.js` at character 1853.\n`active.js` at character 1924.\nWhat they have in common is both are the first characters following an `if` statement without braces."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -402,6 +402,43 @@
 					"uidString" : "IMdhBdjHSjafolTvamc3xQ=="
 				},
 				"code" : "JSParser parseStream: ((wikiClientLib / 'link.js') readStream)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-19T15:07:10.603424-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-21T05:59:26.790709-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5InsHZvBRcO/y+0KZG8tZg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "A lot more learning continued in [[Side quest: debugging JSParser]]."
 			}
 		]
 	},

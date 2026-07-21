@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-11T23:47:02.348014-06:00"
+						"dateAndTimeString" : "2026-07-11T23:47:06.683867-06:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "##wi [[wiki-client]]\nremove jquery-ui. A key behavior is drag-n-drop of pages in the lineup and items in the page.\nalternate slug computation. especially to enable page titles for other human languages \nalternate linup serialization to urls. especially to improve wiki-ssg"
+				"string" : "##wiki-client [[wiki-client]]\nremove jquery-ui. A key behavior is drag-n-drop of pages in the lineup and items in the page.\nalternate slug computation. especially to enable page titles for other human languages \nalternate linup serialization to urls. especially to improve wiki-ssg"
 			},
 			{
 				"__type" : "textSnippet",

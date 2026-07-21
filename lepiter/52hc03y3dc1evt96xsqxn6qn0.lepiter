@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-19T15:00:21.086741-06:00"
+						"dateAndTimeString" : "2026-07-21T06:14:42.955744-06:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,44 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This page begins its life as a {{gtPage:Project Diary|db=2j9m7db2i4oz116bexd7wbdxo}} spinning out of [[wiki-client]]"
+				"string" : "This page begins its life as a {{gtPage:Project Diary|db=2j9m7db2i4oz116bexd7wbdxo}} spinning out of [[wiki-client]]."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-21T06:31:59.124436-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-21T06:32:52.891664-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "h95hKMxQT42CgViTHq0Zlw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Today (2026-07-21) I learned the parsing bug has been fixed in SmaCC by John Brant."
 			},
 			{
 				"__type" : "textSnippet",
@@ -66,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-19T15:05:57.392144-06:00"
+						"dateAndTimeString" : "2026-07-21T06:15:29.433437-06:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Early in these explorations, I ran into code in federated wiki that the JSParser failed to parse. I spent a little time learning about SmaCC (see [[Side quest: Learn JSParser and SmaCC]]). There I learned enough to make better use of GT's molded tools in JSParser. I also learned some error handling for JSParser, and also mapping and filtering arrays in smalltalk."
+				"string" : "I found production code in wiki-client libraries that  {{gtClass:JSParser}} failed to parse. I spent a little time learning about SmaCC (see [[Side quest: Learn JSParser and SmaCC]]).  I learned some error handling for JSParser (#parse:onError:). I also learned how to map and filter arrays in smalltalk."
 			},
 			{
 				"__type" : "textSnippet",
@@ -456,7 +493,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-19T16:14:47.842993-06:00"
+						"dateAndTimeString" : "2026-07-21T06:34:22.99291-06:00"
 					}
 				},
 				"editEmail" : {
@@ -467,7 +504,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-19T16:14:47.842993-06:00"
+						"dateAndTimeString" : "2026-07-21T06:39:01.403205-06:00"
 					}
 				},
 				"uid" : {
@@ -477,7 +514,44 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "Tudor Girba reported [in Discord](https://discord.com/channels/729445214812504107/1528456710828855306/1528757659698728971) that the issue has been fixed. I also learned a new place to look in the GT debugger interface. There are tabs in the GT debugger for SmaCC"
+			},
+			{
+				"__type" : "pictureSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-21T06:39:06.707712-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-21T06:39:38.217976-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "fMhjDU6sQNie9SoBxKUCVw=="
+				},
+				"url" : "attachments/aff2zhamiz3vr2xo2h46vwodc/tabs-in-gt-smacc-debugger.png",
+				"caption" : "Tabs in the GT debugger for SmaCC",
+				"previewHeight" : 300,
+				"reference" : ""
 			},
 			{
 				"__type" : "textSnippet",

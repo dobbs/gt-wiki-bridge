@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-11T22:29:59.689222-06:00"
+						"dateAndTimeString" : "2026-07-21T05:57:45.058891-06:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This page begins its life as a {{gtPage:Project Diary|db=2j9m7db2i4oz116bexd7wbdxo}}\t. Let's get souce code for some challenging wiki packages."
+				"string" : "This page begins its life as a {{gtPage:Project Diary|db=2j9m7db2i4oz116bexd7wbdxo}}. Let's get souce code for some challenging wiki packages."
 			},
 			{
 				"__type" : "textSnippet",
