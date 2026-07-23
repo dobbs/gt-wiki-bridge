@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-21T06:09:43.310091-06:00"
+						"dateAndTimeString" : "2026-07-21T06:13:24.276052-06:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "I learned enough to make better use of GT's molded tools in JSParser. I learned some error handling for JSParser. I also learned how to map and filter arrays in smalltalk."
+				"string" : "I learned enough to make better use of GT's molded tools in JSParser."
 			},
 			{
 				"__type" : "textSnippet",
@@ -411,6 +411,43 @@
 					"__type" : "textStyle"
 				},
 				"string" : "# SmaCC Tutorial\nCreate objects for the scanner and the parser using Coder. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-23T16:25:25.881309-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-23T16:27:09.77466-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Dulg4FbMR8eusCIpe7i7JQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# JSParser\n\n - [ ] create an example here to describe where to fiddle with the grammar and where to enter test code to check for parsing errors."
 			}
 		]
 	},

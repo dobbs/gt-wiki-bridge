@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-21T05:58:43.480859-06:00"
+						"dateAndTimeString" : "2026-07-23T16:17:49.014879-06:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "### A subset of hard problems to consider [[Wiki Packages]]\nremove jquery-ui. A key behavior is drag-n-drop of pages in the lineup and items in the page.\nalternate slug computation. especially to enable page titles for other human languages \nalternate linup serialization to urls. especially to improve wiki-ssg"
+				"string" : "### A subset of candidate hard problems from [[Wiki Packages]]\nremove jquery-ui. A key behavior is drag-n-drop of pages in the lineup and items in the page.\nalternate slug computation. especially to enable page titles for other human languages \nalternate linup serialization to urls. especially to improve wiki-ssg"
 			},
 			{
 				"__type" : "textSnippet",
@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-18T10:03:20.387479-06:00"
+						"dateAndTimeString" : "2026-07-23T16:20:12.142629-06:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,44 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This page begins its life as a {{gtPage:Project Diary|db=2j9m7db2i4oz116bexd7wbdxo}}."
+				"string" : "This page began its life as a {{gtPage:Project Diary|db=2j9m7db2i4oz116bexd7wbdxo}}."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-23T16:20:28.671058-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-23T16:21:52.795828-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pTD5uz4CRHiU+2gAYezr0Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "I took a couple of related side quests:\n[[Side quest: Learn JSParser and SmaCC]]\n[[Side quest: debugging JSParser]]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -119,43 +156,6 @@
 								"__type" : "textStyle"
 							},
 							"string" : "Alternately, find out how widely we are using the `if (condition) return` idiom in federated wiki's javascript. If it's not widely employed, maybe we could change the source to the constraints of JSParser."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2026-07-18T10:15:26.420727-06:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2026-07-18T17:54:16.583967-06:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "Oh2NkeXWR+ucKVuOGkzCNg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Side quest: Learn JSParser and SmaCC]]"
 						}
 					]
 				},
@@ -215,7 +215,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-18T10:03:20.390875-06:00"
+						"dateAndTimeString" : "2026-07-23T16:16:02.67047-06:00"
 					}
 				},
 				"uid" : {
@@ -225,7 +225,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "I learned how to list javascript files. This depends on having cloned repos on [[Wiki Packages]]"
+				"string" : "I learned how to list javascript files. This depends on cloning repos  via snippets on [[Wiki Packages]]."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -286,7 +286,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-21T05:59:48.218335-06:00"
+						"dateAndTimeString" : "2026-07-23T16:07:40.631114-06:00"
 					}
 				},
 				"uid" : {
@@ -296,7 +296,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Learned some error handling for JSParser. **There are two files that do not parse.** Both report unexpected tokens.\n`state.js` at character 1853.\n`active.js` at character 1924.\nWhat they have in common is both are the first characters following an `if` statement without braces."
+				"string" : "Learned some error handling for JSParser. There were two files that did not parse. Both reported unexpected tokens.\n`state.js` at character 1853.\n`active.js` at character 1924.\nWhat they had in common is both are the first characters following an `if (condition) return`."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -323,14 +323,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-12T22:32:02.064461-06:00"
+						"dateAndTimeString" : "2026-07-23T16:19:49.01765-06:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "cT7VQ0J0Rw2ZA+54aqkTaA=="
 				},
-				"code" : "(wikiClientLib entries collect: [ :each | \r  | stream ast message want|\r  stream := each readStream.\r  ast := JSParser\tparseStream: stream \r    onError: [ :str :pos | message := (str , ' ' , pos asString) ].\r\t{\r  \t'file' -> each basename .\r  \t'ast' -> ast . \r    'error' -> message\r\t} asDictionary\r]) select: [ :each | (each at: 'error') isNotNil]"
+				"code" : "(wikiClientLib entries collect: [ :each | \r  | stream ast message |\r  stream := each readStream.\r  ast := JSParser\tparseStream: stream \r    onError: [ :str :pos | message := (str , ' ' , pos asString) ].\r\t{\r  \t'file' -> each basename .\r  \t'ast' -> ast . \r    'error' -> message\r\t} asDictionary\r])"
 			},
 			{
 				"__type" : "textSnippet",
@@ -357,7 +357,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-12T01:02:55.792703-06:00"
+						"dateAndTimeString" : "2026-07-21T06:00:12.127102-06:00"
 					}
 				},
 				"uid" : {
@@ -367,7 +367,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "At least we can confirm the ability to parse one file:"
+				"string" : "I learned how to parse one file:"
 			},
 			{
 				"__type" : "pharoSnippet",

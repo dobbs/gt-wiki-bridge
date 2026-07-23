@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-21T06:32:52.891664-06:00"
+						"dateAndTimeString" : "2026-07-23T16:11:51.884034-06:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Today (2026-07-21) I learned the parsing bug has been fixed in SmaCC by John Brant."
+				"string" : "Today (2026-07-21) I learned the parsing bug has been fixed in SmaCC by John Brant. [j-brant/SmaCC/commit/34885ab](https://github.com/j-brant/SmaCC/commit/34885ab6fb3371924a78329e4a56761e1fc61a8e)"
 			},
 			{
 				"__type" : "textSnippet",
@@ -211,7 +211,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-19T15:10:42.289192-06:00"
+						"dateAndTimeString" : "2026-07-23T16:12:27.52116-06:00"
 					}
 				},
 				"uid" : {
@@ -221,7 +221,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "The [discord conversation](https://discord.com/channels/729445214812504107/755319168504692778/1528456710828855306) helped me reduce the example further. And with a fantastically minimal example, I've been using the debugger to learn more about what's happening."
+				"string" : "The [discord conversation](https://discord.com/channels/729445214812504107/755319168504692778/1528456710828855306) helped me reduce the example further. And with a fantastically minimal example, I used the debugger to learn more about what was happening."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -504,7 +504,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-21T06:39:01.403205-06:00"
+						"dateAndTimeString" : "2026-07-23T16:14:36.351634-06:00"
 					}
 				},
 				"uid" : {
@@ -514,7 +514,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Tudor Girba reported [in Discord](https://discord.com/channels/729445214812504107/1528456710828855306/1528757659698728971) that the issue has been fixed. I also learned a new place to look in the GT debugger interface. There are tabs in the GT debugger for SmaCC"
+				"string" : "Tudor Girba reported [in Discord](https://discord.com/channels/729445214812504107/1528456710828855306/1528757659698728971) that the issue has been fixed. I also learned a new place to look in the GT debugger interface. There are tabs in the GT debugger for SmaCC. This tool might be worth studying as a purpose-built tool an expert uses to work on parsers in GT. The software model may reveal something of the mental model to approach this kind of problem."
 			},
 			{
 				"__type" : "pictureSnippet",
