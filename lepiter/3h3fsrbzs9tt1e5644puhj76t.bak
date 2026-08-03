@@ -42,6 +42,40 @@
 				"string" : "This page begins its life as a {{gtPage:Project Diary|db=2j9m7db2i4oz116bexd7wbdxo}}. Let's get souce code for some challenging wiki packages."
 			},
 			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-08-03T15:05:48.246559-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-08-03T15:07:09.547281-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "e2l+Nth3QH2fdMWKg/79SA=="
+				},
+				"code" : "Object new _"
+			},
+			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -288,14 +322,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-03T10:13:26.560461-04:00"
+						"dateAndTimeString" : "2026-08-03T10:13:50.694853-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Pw9ijbqqTH2NyV3CN6K68g=="
 				},
-				"code" : "wikiBridgePackages := FileLocator\thome / 'workspace' / 'gt' / 'gt-wiki-bridge-packages'.\rwikiPackagesDirectory := 'gt-wiki-bridge-packages' asFileReference"
+				"code" : "wikiPackagesDirectory := FileLocator\thome / 'workspace' / 'gt' / 'gt-wiki-bridge-packages'."
 			},
 			{
 				"__type" : "pharoSnippet",

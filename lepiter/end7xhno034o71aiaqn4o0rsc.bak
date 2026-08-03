@@ -42,6 +42,40 @@
 				"string" : "This page and the entire package was created following {{gtPage:How to set up a GT GitHub repo in 7'|db=2j9m7db2i4oz116bexd7wbdxo}}."
 			},
 			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-08-03T15:03:46.164601-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-08-03T15:04:22.105743-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4RsQDqxcR1K8aKllrWrmGA=="
+				},
+				"code" : "FileLocator\thome\t/ 'workspace/gt/gt-wiki-bridge-packages'"
+			},
+			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -55,7 +89,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-23T16:50:12.461837-06:00"
+						"dateAndTimeString" : "2026-08-03T14:43:23.017734-04:00"
 					}
 				},
 				"editEmail" : {
@@ -66,119 +100,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-23T16:50:26.448312-06:00"
+						"dateAndTimeString" : "2026-08-03T14:43:23.017734-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "3EVY5A8YTp+igAKWcVJnzg=="
+					"uidString" : "TXNgGzLLT46w9hDrZZt08w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
 				"string" : ""
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-23T16:50:31.006226-06:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-23T16:54:08.676274-06:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "imqFKO/3QsyOkz4laWQAZg=="
-				},
-				"code" : "GtHomeLepiterVerticalBaseCard"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-23T16:54:12.66486-06:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-23T16:54:14.989785-06:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "7PtcKocdRnaxrl+lB7z8ug=="
-				},
-				"code" : "GtHomeGetStartedSection"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-23T16:57:33.956248-06:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-23T17:02:17.534428-06:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "Tcnm+IFKSXSFylm/A+9w+g=="
-				},
-				"code" : "GtHome"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -318,6 +250,145 @@
 					"uidString" : "/AzYlieyQWeqNrJXw8XzIg=="
 				},
 				"code" : "#GtWikiBridge asPackage"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-08-03T14:45:03.278311-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-08-03T14:45:56.42511-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qIhvq6eKQ7+krED9rYDSqQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The following experiments are left over from trying to convert the current home card to a list of lepiter pages."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-23T16:50:31.006226-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-23T16:54:08.676274-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "imqFKO/3QsyOkz4laWQAZg=="
+				},
+				"code" : "GtHomeLepiterVerticalBaseCard"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-23T16:54:12.66486-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-23T16:54:14.989785-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "7PtcKocdRnaxrl+lB7z8ug=="
+				},
+				"code" : "GtHomeGetStartedSection"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-23T16:57:33.956248-06:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-07-23T17:02:17.534428-06:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Tcnm+IFKSXSFylm/A+9w+g=="
+				},
+				"code" : "GtHome"
 			},
 			{
 				"__type" : "textSnippet",
