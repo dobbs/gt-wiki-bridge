@@ -171,14 +171,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-23T16:57:44.086597-06:00"
+						"dateAndTimeString" : "2026-07-23T17:02:17.534428-06:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Tcnm+IFKSXSFylm/A+9w+g=="
 				},
-				"code" : "GtWikiBridgeSection"
+				"code" : "GtHome"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -284,6 +284,40 @@
 					"uidString" : "XbifBIBmRDCpDlhuJBqpFg=="
 				},
 				"code" : "Metacello new\n\trepository: 'github://dobbs/gt-wiki-bridge:main/src';\n\tbaseline: 'GtWikiBridge';\n\tload"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-08-03T14:29:08.393422-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-08-03T14:29:43.846187-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/AzYlieyQWeqNrJXw8XzIg=="
+				},
+				"code" : "#GtWikiBridge asPackage"
 			},
 			{
 				"__type" : "textSnippet",

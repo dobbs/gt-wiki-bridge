@@ -166,7 +166,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-11T23:58:37.122672-06:00"
+						"dateAndTimeString" : "2026-08-03T10:06:48.453746-04:00"
 					}
 				},
 				"editEmail" : {
@@ -177,14 +177,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-12T22:06:33.206297-06:00"
+						"dateAndTimeString" : "2026-08-03T10:13:19.515238-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "kpvSvtIeQJyEFJcSM6hMyg=="
+					"uidString" : "mDn+IIsHQZ2gFI/sRMcZnA=="
 				},
-				"code" : "wikiClientLib := 'gt-wiki-bridge-packages/wiki-client/lib' asFileReference"
+				"code" : "\rwikiClientLib := wikiBridgePackages / 'wiki-client' / 'lib'.\r(wikiClientLib entries collect: [ :each | \r  | stream ast message |\r  stream := each readStream.\r  ast := JSParser\tparseStream: stream \r    onError: [ :str :pos | message := (str , ' ' , pos asString) ].\r\t{\r  \t'file' -> each basename .\r  \t'ast' -> ast . \r    'error' -> message\r\t} asDictionary\r])"
 			},
 			{
 				"__type" : "textSnippet",
@@ -222,40 +222,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "Learned some error handling for JSParser. There were two files that did not parse. Both reported unexpected tokens.\n`state.js` at character 1853.\n`active.js` at character 1924.\nWhat they had in common is both are the first characters following an `if (condition) return`."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-12T00:30:12.864721-06:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-23T16:19:49.01765-06:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "cT7VQ0J0Rw2ZA+54aqkTaA=="
-				},
-				"code" : "(wikiClientLib entries collect: [ :each | \r  | stream ast message |\r  stream := each readStream.\r  ast := JSParser\tparseStream: stream \r    onError: [ :str :pos | message := (str , ' ' , pos asString) ].\r\t{\r  \t'file' -> each basename .\r  \t'ast' -> ast . \r    'error' -> message\r\t} asDictionary\r])"
 			},
 			{
 				"__type" : "textSnippet",

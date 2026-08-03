@@ -288,14 +288,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-11T23:35:25.539158-06:00"
+						"dateAndTimeString" : "2026-08-03T10:13:50.694853-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Pw9ijbqqTH2NyV3CN6K68g=="
 				},
-				"code" : "wikiPackagesDirectory := 'gt-wiki-bridge-packages' asFileReference"
+				"code" : "wikiPackagesDirectory := FileLocator\thome / 'workspace' / 'gt' / 'gt-wiki-bridge-packages'."
 			},
 			{
 				"__type" : "pharoSnippet",

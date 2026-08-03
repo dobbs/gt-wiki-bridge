@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-11T22:40:03.894993-06:00"
+						"dateAndTimeString" : "2026-07-23T16:28:46.34041-06:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#Which Packages?\nHere's a collection of hard problems to consider."
+				"string" : "Here's a collection of hard problems to consider."
 			},
 			{
 				"__type" : "textSnippet",
@@ -288,14 +288,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-11T23:35:25.539158-06:00"
+						"dateAndTimeString" : "2026-08-03T10:13:26.560461-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Pw9ijbqqTH2NyV3CN6K68g=="
 				},
-				"code" : "wikiPackagesDirectory := 'gt-wiki-bridge-packages' asFileReference"
+				"code" : "wikiBridgePackages := FileLocator\thome / 'workspace' / 'gt' / 'gt-wiki-bridge-packages'.\rwikiPackagesDirectory := 'gt-wiki-bridge-packages' asFileReference"
 			},
 			{
 				"__type" : "pharoSnippet",
