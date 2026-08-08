@@ -177,14 +177,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-03T10:13:19.515238-04:00"
+						"dateAndTimeString" : "2026-08-03T17:16:29.413831-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "mDn+IIsHQZ2gFI/sRMcZnA=="
 				},
-				"code" : "\rwikiClientLib := wikiBridgePackages / 'wiki-client' / 'lib'.\r(wikiClientLib entries collect: [ :each | \r  | stream ast message |\r  stream := each readStream.\r  ast := JSParser\tparseStream: stream \r    onError: [ :str :pos | message := (str , ' ' , pos asString) ].\r\t{\r  \t'file' -> each basename .\r  \t'ast' -> ast . \r    'error' -> message\r\t} asDictionary\r])"
+				"code" : "wikiBridgePackages := FileLocator home / 'workspace/gt/gt-wiki-bridge-packages'.\rwikiClientLib := wikiBridgePackages / 'wiki-client' / 'lib'.\r(wikiClientLib entries collect: [ :each | \r  | stream ast message |\r  stream := each readStream.\r  ast := JSParser\tparseStream: stream \r    onError: [ :str :pos | message := (str , ' ' , pos asString) ].\r\t{\r  \t'file' -> each basename .\r  \t'ast' -> ast . \r    'error' -> message\r\t} asDictionary\r])"
 			},
 			{
 				"__type" : "textSnippet",

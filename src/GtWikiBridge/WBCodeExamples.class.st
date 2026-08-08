@@ -7,6 +7,49 @@ Class {
 }
 
 { #category : 'accessing' }
+WBCodeExamples >> callsOfAsSlug [
+	<gtExample>
+	^ ((self wikiClient modules collect: [ :m | m at: 'ast' ])
+		flatCollect: [ :ast | ast // 'callexpression' ])
+		select: [ :it | it expression name value = 'asSlug' ]
+]
+
+{ #category : 'accessing' }
+WBCodeExamples >> callsOfRequire [
+	<gtExample>
+	^ ((self wikiClient modules collect: [ :m | m at: 'ast' ])
+		flatCollect: [ :ast | ast // 'callexpression' ])
+		select: [ :it | it expression name value = 'require' ]
+]
+
+{ #category : 'accessing' }
+WBCodeExamples >> jQueryPageAssignments [
+	<gtExample>
+	^ (self wikiClient modules collect: [ :m | m at: 'ast' ])
+		flatCollect: [ :ast | (ast // 'assignmentexpression' /@ 'lhs') @ 'name' <- '$page' ]
+]
+
+{ #category : 'accessing' }
+WBCodeExamples >> modulesThatCallAsSlug [
+	<gtExample>
+	^ (self wikiClient modules
+		select: [ :m | 
+			| ast callsOfAsSlug |
+			ast := m at: 'ast'.
+			callsOfAsSlug := ast // 'callexpression'
+					select: [ :it | it expression name value = 'asSlug' ].
+			callsOfAsSlug size > 0 ]) collect: [ :m | m at: 'file' ]
+]
+
+{ #category : 'accessing' }
+WBCodeExamples >> wikiClient [
+	<gtExample>
+	^ WikiPackage
+		fromFile: FileLocator home
+				/ 'workspace/gt/gt-wiki-bridge-packages/wiki-client/package.json'
+]
+
+{ #category : 'accessing' }
 WBCodeExamples >> wikiPackagesFolder [
 	<gtExample>
 	| folder |
