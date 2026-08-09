@@ -313,14 +313,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-08T17:34:08.02614-04:00"
+						"dateAndTimeString" : "2026-08-08T20:03:54.927292-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "a2BVCOskS2uxtrhGptF3oA=="
 				},
-				"code" : "(WBCodeExamples\tnew wikiClient\tmodules\tcollect: [:m|m at: 'ast'])\r  flatCollect: [ :ast | ast // 'callexpression' @ 'expression' ]"
+				"code" : "WBCodeExamples new asSlugExpressions"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -404,7 +404,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-08T12:58:26.168832-04:00"
+						"dateAndTimeString" : "2026-08-08T20:28:35.299299-04:00"
 					}
 				},
 				"editEmail" : {
@@ -415,48 +415,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-08T13:00:05.457853-04:00"
+						"dateAndTimeString" : "2026-08-08T20:52:44.079011-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "TrnQOBhQShS5tyqx0SMefw=="
+					"uidString" : "X3wLI6YMTYumbtVpQNHd5A=="
 				},
-				"code" : "allAsts := (WBCodeExamples\tnew wikiClient\tmodules\tcollect: [:m|m at: 'ast'])"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-08T13:00:41.286239-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-08T13:03:59.258467-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "eqHa5M29QXKIIhF9g87wWw=="
-				},
-				"code" : "allAsts flatCollect: [:ast | ast // 'asyncfunction']"
+				"code" : "WBCodeExamples new sortable"
 			},
 			{
 				"__type" : "pharoSnippet",

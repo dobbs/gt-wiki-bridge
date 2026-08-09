@@ -7,11 +7,17 @@ Class {
 }
 
 { #category : 'accessing' }
+WBCodeExamples >> asSlugExpressions [
+	<gtExample>
+	^ (self wikiClient modules collect: [ :m | m at: 'ast' ])
+		flatCollect: [ :ast | (ast // 'expression') @ 'name' <- 'asSlug' ]
+]
+
+{ #category : 'accessing' }
 WBCodeExamples >> callsOfAsSlug [
 	<gtExample>
-	^ ((self wikiClient modules collect: [ :m | m at: 'ast' ])
-		flatCollect: [ :ast | ast // 'callexpression' ])
-		select: [ :it | it expression name value = 'asSlug' ]
+	^ (self wikiClient modules collect: [ :m | m at: 'ast' ])
+		flatCollect: [ :ast | ast // 'expression' @ 'name' <- 'asSlug' \\ 'callexpression']
 ]
 
 { #category : 'accessing' }
@@ -39,6 +45,13 @@ WBCodeExamples >> modulesThatCallAsSlug [
 			callsOfAsSlug := ast // 'callexpression'
 					select: [ :it | it expression name value = 'asSlug' ].
 			callsOfAsSlug size > 0 ]) collect: [ :m | m at: 'file' ]
+]
+
+{ #category : 'accessing' }
+WBCodeExamples >> sortable [
+	<gtExample>
+	^ (self wikiClient modules collect: [ :m | m at: 'ast' ])
+		flatCollect: [ :ast | (ast // 'expression') @ 'name' <- 'sortable' ]
 ]
 
 { #category : 'accessing' }
