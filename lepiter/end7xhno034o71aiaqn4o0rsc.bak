@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-07-23T16:36:06.752824-06:00"
+						"dateAndTimeString" : "2026-08-14T11:53:56.289073-06:00"
 					}
 				},
 				"uid" : {
@@ -39,44 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This page and the entire package was created following {{gtPage:How to set up a GT GitHub repo in 7'|db=2j9m7db2i4oz116bexd7wbdxo}}."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-03T14:43:23.017734-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-03T14:43:23.017734-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "TXNgGzLLT46w9hDrZZt08w=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"string" : "This page and the {{gtPackage:GtWikiBridge}}package was created following {{gtPage:How to set up a GT GitHub repo in 7'|db=2j9m7db2i4oz116bexd7wbdxo}}."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -208,48 +171,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-14T11:12:10.983922-06:00"
+						"dateAndTimeString" : "2026-08-14T11:53:12.862553-06:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "/AzYlieyQWeqNrJXw8XzIg=="
 				},
-				"code" : "#GtWikiBridge asPackage\tloadLepiter"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-14T11:12:16.304749-06:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-14T11:12:16.304749-06:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "YnMzIXsuQ8CANm5O2eM1QA=="
-				},
-				"code" : ""
+				"code" : "#BaselineOfGtWikiBridge asClass loadLepiter"
 			},
 			{
 				"__type" : "textSnippet",
@@ -287,74 +216,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "Followed {{gtPage:How to set up a home section|db=2j9m7db2i4oz116bexd7wbdxo}}.\nCreated {{gtClass:GtHomeMultiCardWikiBridgeSection}}.\nCreated {{gtMethod:GtHome>>#gtWikiBridgeSection}}."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-14T11:14:22.623908-06:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-14T11:15:54.560335-06:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "ynKnIMAOTyukMYgaamPdMQ=="
-				},
-				"code" : "GtHomeMultiCardWikiBridgeSection\tnew"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-14T11:28:45.496556-06:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-08-14T11:29:19.32376-06:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "Uhfe+BWSRzu5RsIRqI3haw=="
-				},
-				"code" : "GtHome\tnew\tgtWikiBridgeSection\t"
 			},
 			{
 				"__type" : "textSnippet",
